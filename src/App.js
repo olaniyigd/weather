@@ -38,7 +38,7 @@ function App() {
       <p>{weather.name}</p>
       {/* TEMPERATURE F/C */}
       
-      <p>{weather.main.temp} C</p>
+      <p>{weather.main.temp} <sup>0</sup>C</p>
       {/* CONDITION SUNNY */}
       <p>{weather.weather[0].main}</p>
       <p>({weather.weather[0].description})</p>
