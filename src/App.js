@@ -23,7 +23,7 @@ function App() {
       <h1>Weather App</h1>
       {/* SEARCH BOX */}
 
-      <div>
+      <div className='flex'>
       <input 
       type='text'
       placeholder='enter your city'
